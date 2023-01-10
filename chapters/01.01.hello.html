@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <html>
   <head>
     <title>Hello React</title>
@@ -8,6 +8,10 @@
   <body>
     <div id="app">
       <!-- my app renders here -->
+      ReactDOM.render(
+        React.createElement('h1', null, 'Hello world!'),
+        document.getElementById('app')
+      );
     </div>
     <script src="react/react.js"></script>
     <script src="react/react-dom.js"></script>
